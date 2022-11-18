@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+header{
+    background-image: url(/public/images/photo.jpeg);
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(226, 142, 33);
+    padding:10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:dimgray;
+    text-transform: uppercase;
+}
+
+header nav ul li a:visited{
+    color:rgb(90, 45, 142);
+}
+header nav ul li a:hover{
+    color:rgb(224, 23, 23);
+}
+
+main{
+    height:50vh;
+}
+
+form{
+    width:fit-content;
+    margin:10vh auto;
+    font-size: 20px;
+    padding:20px;
+    border-radius:5px;
+}
+
+input{
+    margin:10px;
+    padding:5px;
+}
+
+
+
