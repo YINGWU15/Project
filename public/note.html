@@ -12,23 +12,26 @@
   <header>
     <nav>
        <ul> 
-         <li> <a href="/public/register.html">register</a></li>
-         <li> <a href="/public/login.html">login</a></li>
-         <li> <a href="/public/note.html">note</a></li>
+         <li> <a href="/public/register.html">Register</a></li>
+         <li> <a href="/public/login.html">Login</a></li>
+         <li> <a href="/public/note.html">Note</a></li>
          </ul>
     </nav>
 </header>
 
     <main>
-      <form id="note">
-        <label for="note" >Please Note Something Here</label>
-        <input type="text" id="texts">
+      <p id = "error"></p>
+      <form>
+        <label for="note">Please note something</label>
+        <input type="text">
         <br>
         <input type="submit" value="Submit">
-      </form>
-    </main>>
+     </form>
+    </main>
  
-    <script src="/public/note.js"></script>
-
+    
+    <script type="module" src="/scripts/note.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
+    <script type="module" src="/scripts/user.js"></script>
 </body>
 </html>

@@ -15,8 +15,8 @@ const con = require("./db_connect");
 
 
 
-  async function getAllNotes() {
-    const sql = `SELECT * FROM notes;`;
+  async function getAllNotes(note) {
+    const sql = `SELECT * FROM notes where note.userId = ${note.userId};`;
     let note = await con.query(sql);
     console.log(note)
   }

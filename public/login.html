@@ -22,17 +22,23 @@
 
    <main>
      <form id="login">
-        <label for="email">Email</label>
-        <input type="text" name="uemail" id="email">
+      <p id = "error"></p>
+        <label for="username">Username</label>
+        <input type="text" name="username " id="username">
         <br>
         <label for="password">Password</label>
         <input type="password"  id="pwd" >
+        <br>
+        <label for="fullname">FullName</label>
+        <input type="fullname"  id="fname" >
         <br>
         <input type="submit" value="Submit" >
      </form>
      <button id="button-use">Button!</button>
    </main>
-   <script src="/public/main.js"></script>
-    <script src="/public/login.js"></script>
+   
+    <script type="module" src="/scripts/main.js"></script>
+  <script type="module" src="/scripts/login.js"></script>
+  <script type="module" src="/scripts/user.js"></script>
 </body>
 </html>
